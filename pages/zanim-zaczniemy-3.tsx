@@ -10,7 +10,7 @@ const Basics: DFC = () => {
       <div style={{ display: "flex" }}>
         <img
           style={{ height: "30vh", backgroundColor: "white" }}
-          src="https://cdn.glitch.com/90713e5e-413f-4a96-8bde-586609e14788%2Fdeno-logo.svg?v=1600770847585
+          src="https://cdn.glitch.com/90713e5e-413f-4a96-8bde-586609e14788%2Fdeno-logo.svg?v=1600770847585"
         >
         </img>
         <ul>
