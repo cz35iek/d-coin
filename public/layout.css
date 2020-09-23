@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "bios";
+  src: url(https://cdn.glitch.com/90713e5e-413f-4a96-8bde-586609e14788%2FWeb_IBM_VGA_8x16.woff?v=1600539012099);
+}
+
+body {
+  /* background-color: #1e1e1e; */
+  background-color: #000084;
+  color: #ffffff;
+  /* color: #dcdcdc; */
+  font-family: "Fira Code", monospace;
+}
+
+.runtime {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .editor {
+  width: 40vw;
+  height: 200px;
+} */
+
+.run {
+  margin: 10px auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 4px;
+  padding-bottom: 2px;
+}
+
+.run::after {
+  content: "🚀";
+}
+
+.xtermjs {
+  width: 800px;
+  overflow: hidden;
+}
+
+.xterm-viewport {
+  overflow: hidden !important;
+}
+
+.rotate {
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
